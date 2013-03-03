@@ -1,0 +1,6 @@
+application.name = TimeOff
+
+login = Please Log In
+login.submit = Log In
+email = Email
+password = Password

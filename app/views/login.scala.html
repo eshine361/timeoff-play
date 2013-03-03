@@ -1,0 +1,17 @@
+@(loginForm: Form[(String, String)])(implicit flash: Flash) 
+@import helper.twitterBootstrap._
+@main() {
+	<h1 class="app-name">@Messages("application.name")</h1>
+	<div class="login">	 
+	@helper.form(action = routes.Application.authenticate) {
+	<fieldset>
+		<legend>@Messages("login")</legend>
+		@helper.inputText(loginForm("email"))
+		@helper.inputPassword(loginForm("password"))
+	</fieldset>
+	<p>
+		<input type="submit" class="btn-primary" value='@Messages("login.submit")'>
+	</p>
+	}
+	</div> 
+}

@@ -3,7 +3,17 @@
 # ~~~~
 
 # Home page
-GET     /                           controllers.Application.index
+GET /	controllers.Application.login
+
+# Authentication
+GET	/login	controllers.Application.login
+POST /login controllers.Application.authenticate
+GET /logout	controllers.Application.logout
+
+# Leave
+GET /leave/book	controllers.Leave.book
+#POST /leave/book controllers.Leave.bookPost
+GET	/leave/list	controllers.Leave.list
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

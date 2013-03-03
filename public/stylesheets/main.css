@@ -1,0 +1,35 @@
+h1.app-name {
+	color: rgba(100, 110, 115, 0.93);
+	margin-top: 10%;
+	margin-left: 35%
+}
+
+div.login {	
+	background-color: rgba(100, 110, 115, 0.93);
+	color: white;
+	border-style: outset;
+	border-radius: 1em;
+	width: 35%;	
+	margin-left: 30%;
+	margin-top: 5%;
+	padding-left: 2.5%;
+	padding-top: 1%;	
+}
+
+div.login fieldset legend{
+	color: white;
+}
+
+span.help-block {
+	display: inline;
+	color: rgb(238, 49, 12);
+	content: *;
+}
+
+span.help-inline {
+	color: rgb(238, 49, 12);
+}
+
+input.btn-primary {
+	border-radius: .5em;
+}
