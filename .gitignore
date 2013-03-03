@@ -6,3 +6,10 @@ tmp
 .history
 dist
 /project
+/.settings
+/.target
+/bin
+/test
+/.cache
+/.classpath
+/.project
