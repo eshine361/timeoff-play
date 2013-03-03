@@ -1,4 +1,10 @@
-timeoff_play
+timeoff-play
 ============
 
-An application to book time off. Using scala, play framework and mysql.
+An application to book time off.
+
+Technologies:
+	- Scala and Play framework.
+	- MySql
+	- JavaScript (jQuery, Backbone.js, unserscore.js)
+	- Twitter Bootstrap
