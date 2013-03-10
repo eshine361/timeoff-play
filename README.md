@@ -1,10 +1,19 @@
 timeoff-play
 ============
 
-An application to book time off.
+###An application to book time off.
 
-Technologies:
-	- Scala and Play framework.
-	- MySql
-	- JavaScript (jQuery, Backbone.js, unserscore.js)
-	- Twitter Bootstrap
+	technologies = {
+		(			
+			"MySql"      				-> "Database",
+			"JavaScript"    			-> (
+				"CoffeeScript" -> "Clean syntax",
+				"jQuery"       -> "DOM manipulation library",
+				"Backbone.js"  -> "Cool MV framework",
+				"_.js"         -> "Functional programming and templating"
+			),
+			
+			"Twitter Bootstrap"        -> "Frontend Framework",
+			"Play framework for Scala" -> "Web Framework"
+		)
+	}
