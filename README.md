@@ -2,7 +2,7 @@ timeoff-play
 ============
 
 ###An application to book time off.
-
+```scala
 	technologies = {
 		(			
 			"MySql"      				-> "Database",
@@ -17,3 +17,4 @@ timeoff-play
 			"Play framework for Scala" -> "Web Framework"
 		)
 	}
+```
