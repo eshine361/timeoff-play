@@ -1,9 +1,6 @@
-package test.models
+package models
 
 import org.specs2.mutable._
-import org.specs2.mock._
-
-import models.User
 
 class UserSpec extends Specification {
   "User" should {
